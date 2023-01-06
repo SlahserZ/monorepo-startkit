@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.build.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@milktea/app/*": ["app/src/*"],
+      "@milktea/*": ["packages/*/src"]
+    },
+    "noEmit": true
+  },
+  "files": []
+}
