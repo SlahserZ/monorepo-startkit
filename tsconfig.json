@@ -8,5 +8,5 @@
     },
     "noEmit": true
   },
-  "files": []
+  "files": ["packages/types/index.d.ts"]
 }
